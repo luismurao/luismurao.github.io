@@ -1,7 +1,6 @@
 ---
 title: "GSoC 2016 final evaluation"
 author: "Luis Osorio"
-date: "22 de agosto de 2016"
 output: html_document
 ---
 
