@@ -1,0 +1,61 @@
+---
+title: "GSoC 2016 final evaluation"
+author: "Luis Osorio"
+date: "22 de agosto de 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary
+
+On this page you can find the links to the work I have done during the amzing [GSoC 2016](https://developers.google.com/open-source/gsoc/timeline). This work was done under the supervision of my mentors:
+
+- [Vijay Barve](https://github.com/vijaybarve)
+- [Narayani Barve](https://github.com/narayanibarve)
+- [Jorge Soberón](https://biodiversity.ku.edu/biodiversity-modeling/people/jorge-sober%C3%B3n)
+
+# The github commits link
+
+#### <a href="https://github.com/luismurao/nichetoolbox/commits/master" target="_blank">`NicheToolBox commits`</a>
+
+
+## Work done during GSoC 2016
+
+### Stage 1: Data access and curation
+
+The first stage of the project corresponds to the development of biodiversity data curation functions. 
+
+- <a href="gsoc_01_stage.html" target="_blank">First stage tutorial</a>
+
+### Stage 2: Curate Biodiversity data using `leaflet` maps
+
+The second stage functions are related to curate spatial occurence data using `leaflet` maps, generate a workflow report and also to extract the environmental values of the occurrences data to explore and study species niches in the **Niche space**. 
+
+- <a href="gsoc_02_stage.html" target="_blank">Second stage tutorial</a>
+
+### Stage 3: Modeling and evaluating species niches and distributions
+
+The third stage functions are related to model species niches and to estimate species distributions. To do the above I devolped methods to run algorithms that predict species niches and estimate species potential distributions (Elliposid models, bioclim and `MaxEnt`). There are also some methods that convert the potential distribution map into a binary map which attempts to show where does the species is distributed. This last part includes methos to evaluate the species distribution maps.
+
+- <a href="gsoc_03_stage.html" target="_blank">Third stage tutorial</a>
+
+### The whole app tutorial
+
+The whole `nichetoolbox` tutorial in one file...
+
+- <a href="ntb_tutorial.html" target="_blank">All stages in one tutorial</a>
+
+# References
+
+- Fielding AH and Bell F. (1997) A review of methods for the assessment of prediction errors in conservation presence/absence models. Environmental Conservation 24(1):38–49
+
+- Peterson AT, Vieglais DA (2001) Predicting species invasions using ecological niche modeling: New approaches from bioinformatics attack a pressing problem. Bioscience 51:363-371
+
+- Peterson AT (2003) Predicting the geography of species' invasions via ecological niche modeling. Quarterly Review of Biology 78:419-433
+
+- Peterson AT, Papes M., Soberon J. (2008) Rethinking receiver operating characteristic analysis applications in ecological niche modeling. Ecological modeling 213:63–72
+
+- Peterson AT, Soberón J., Pearson R., Anderson R., Martínez-Meyer E., Nakamura M. & Araújo M. (2011) Ecological Niches and Geographic Distributions. Princeton University Press 
